@@ -13,8 +13,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
-    margin-top: 10px;
+    margin: 0 200px;
+    /* margin-top: 10px; */
 }
 /* shared style */
 .secondary-bg{
@@ -47,6 +47,17 @@ color: black;
     border-color: aliceblue;
     border-radius: 5px;
     font-size: 15px;
+    margin-right: 20px;
+}
+.btn-sec{
+    background-color: #f5efeb;
+    font-weight: 700;
+    color: #FD6E0A;
+    padding: 10px 30px;
+    border-color: #FD6E0A;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 20px; 
 }
 .open-sans-normal{
   font-family: "Open Sans", sans-serif;
@@ -76,7 +87,7 @@ nav li a{
     display: flex;
     justify-content: space-between;
     margin: 0 55px 0 200px;
-    max-height: 500px;
+    /* max-height: 500px; */
 }
 .banner-content{
     max-width: 580px;
@@ -90,8 +101,8 @@ font-size: 50px;
 font-weight: bold;
 }
 .img-me{
-    width: 572px;
-    height: 533px;
+    width: 580px;
+    /* height: 533px; */
 }
 /* main styles */
 main{
@@ -127,12 +138,69 @@ margin-right: 20px;
 .skill-container{
     display: flex;
     gap: 20px;
+    margin-top: 30px;
+   
 }
 .skill{
     padding: 30px;
     border: 5px;
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.14);
+    
 }
 .skill-description{
     text-align: left;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-description{
+    color: #757575;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #757575;
+    
+}
+.experience-title{
+font-size:  15px;
+font-weight: bold;
+color: black;
+
+}
+.resume-column-title{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: #474747;
+    color: brown;
+}
+.section-title-2{
+font-size:  35px;
+font-weight: bold;
+color: black;
+text-align: center;
+}
+.resume-download{
+    text-align: center;
+    margin-top: 20px;
+}
+footer{
+    padding: 130px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    background-color: #f5efeb;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
 }
