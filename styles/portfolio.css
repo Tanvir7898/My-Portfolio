@@ -204,3 +204,8 @@ footer input[type="text"], input[type="email"], footer textarea{
     margin-bottom: 20px;
     border: none;
 }
+.icon{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+}
