@@ -209,3 +209,65 @@ footer input[type="text"], input[type="email"], footer textarea{
     display: flex;
     justify-content: space-around;
 }
+/* Responsive */
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .skill-container{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 576px) {
+    .resume-container{
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+}
+@media screen and (max-width: 576px) {
+    footer{
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+    footer input[type="text"], input[type="email"], footer textarea{
+        width: calc(100% - 40px);
+    }
+}
+@media screen and (max-width: 576px) {
+    .about{   
+        padding: 30px 20px;
+        flex-direction: column
+    }
+    .about-items{   
+        padding: 30px 20px;
+        flex-direction: column
+    }
+    .banner{   
+        padding: 30px 20px;
+        flex-direction: column;
+        margin: 20px;
+        
+    }
+    .header{
+        background-image: none;
+    }
+    .img-me{
+        margin: 20px;
+        width: 100%;
+        /* height: 533px; */
+    }
+    nav {
+      flex-direction: column;
+    }
+    .btn-primary{
+        background-color: #FD6E0A;
+        font-weight: 500;
+        color: white;
+        padding: 8px 15px;
+        border-color: aliceblue;
+        border-radius: 5px;
+        font-size: 15px;
+        margin-right: 20px;
+        
+    }
+}
